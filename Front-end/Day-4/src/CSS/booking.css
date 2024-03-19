@@ -1,0 +1,126 @@
+.bookingimage
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 80%;
+  width: 100%;
+  z-index: -1;
+}
+.bookingoverlay
+{
+    position: absolute;
+    left:0;
+    top:0;
+    width: 100%;
+    height: 80%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index:-1;
+}
+.yogastudio
+{
+    font-size: 50px;
+    bottom: 15%;
+    position: absolute;
+    font-weight: bolder;
+    color: white;
+    left: 5%;
+    font-size: 95px;
+}
+.containerpara
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 500px; /* Adjust margin-top as needed */
+    right: 10%;
+}
+.contain{
+    margin: 60px;
+    padding: 10px;
+    width: 40%; /* Adjust width as needed */
+    position: relative;
+}
+.parabooking
+{
+  width: 30%; /* Ensure the image fills its container */
+  height: auto;
+  right: 60%;
+  position: absolute;
+  bottom: -60%;
+  line-height: 170%;  
+  font-size: larger;
+  font-family: cursive;
+}
+.registration-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+  bottom: 140px;
+  right: -20%;
+}
+
+.registration-form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+} 
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="phoneno"],
+input[type="emergency_contact_name"],
+.registration-form select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.registration-form select {
+  appearance: none; /* Remove default select arrow */
+  background-image: url('data:image/svg+xml;utf8,<svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>'); /* Custom select arrow */
+  background-repeat: no-repeat;
+  background-position: right 10px top 50%;
+  background-size: 12px;
+  background-color: white; /* Change background color as needed */
+  cursor: pointer;
+}
+
+.registration-form select:focus {
+  outline: none;
+  border-color: #007bff; /* Change border color on focus */
+}
+
+/* Style for option hover */
+.registration-form select option:hover {
+  background-color: #f0f0f0; /* Change hover background color */
+}
+
+/* Style for selected option */
+.registration-form select option:checked {
+  background-color: #007bff; /* Change selected background color */
+  color: white; /* Change selected text color */
+}
