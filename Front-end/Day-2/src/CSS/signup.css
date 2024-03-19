@@ -1,0 +1,61 @@
+.signin-image {
+  position: absolute;
+  left: 289px; /* Align the image to the left */
+  top: 140px; /* Align the image to the top */
+  width: 600px; /* Set the width of the image */
+  height: 500px; /* Maintain aspect ratio */
+}
+
+.form-container.signin {
+  position: relative;
+  width: 300px;
+  
+  margin: 30px auto; /* Adjust margin for spacing between image and form */
+  padding: 90px;
+  top:70px;
+  border-radius: 8px;
+  background-color: #dfe4e9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  left: 250px; /* Move the container to the right */
+}
+
+
+.form-container.signin h2.signin {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-container.signin form.signin {
+  width: 100%;
+}
+
+.form-container.signin input.signin {
+  padding: 10px;
+  width: calc(100% - 12px);
+  border-radius: 10px;
+  border: 1px solid #bad0de;
+  margin-bottom: 15px;
+}
+
+.form-container.signin button.signin {
+  padding: 10px 20px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: block; 
+  margin: 0 auto; /* Center the button horizontally */
+}
+
+.form-container.signin button.signin:hover {
+  background-color: #76736d;
+}
+
+.error-message.signin {
+  color: rgb(0, 0, 0);
+  margin-top: 6px;
+  margin-bottom: 10px;
+}

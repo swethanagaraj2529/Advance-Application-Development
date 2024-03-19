@@ -1,0 +1,27 @@
+/* General styles for academy boxes */
+.academy-box {
+  background-color: #f0e2e2;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: calc(33.33% - 20px); /* Adjust width as needed */
+  text-align: center; /* Center-align content */
+}
+
+.academy-box h2 {
+  margin-top: 0;
+  font-size: 24px;
+}
+
+.academy-box p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+/* Styles for images */
+.academy-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px; /* Adjust border-radius as needed */
+  margin-bottom: 10px; /* Add margin for separation from text */
+}
