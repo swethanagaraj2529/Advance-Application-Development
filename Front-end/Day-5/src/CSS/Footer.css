@@ -1,0 +1,22 @@
+/* Footer.css */
+
+.footer {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  position: relative; /* Change position to fixed */
+  margin: 0px;
+  left: -10px;
+  width: 98.5%;
+  bottom: -10px;
+}
+
+.footer .container {
+  margin-top: 5px;
+}
+
+.footer p {
+  margin: 5px 0;
+  font-size: 14px;
+}

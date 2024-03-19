@@ -1,0 +1,38 @@
+/* navadmin.css */
+
+.sidebar {
+  background-color: #333; /* Change this to your desired background color */
+  width: 180px; /* Adjust the width as needed */
+  padding-bottom: 100px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar h5 {
+  color: white; /* Change text color */
+  font-size: 20px; /* Change text size */
+  margin: 0;
+  padding: 50px;
+  left: 20%;
+}
+
+.sidebar ul li {
+  padding: 10px;
+}
+
+.sidebar ul li a {
+  color: white; /* Change link text color */
+  text-decoration: none;
+  display: block;
+  padding: 30px;
+  bottom: 60px;
+}
+
+.sidebar ul li a:hover {
+ 
+  text-decoration: underline;
+  
+}
